@@ -77,5 +77,14 @@ include "Connection.php";
        
     ?>
     
+<?php
+
+if(isset($_SESSION[loggedout]))
+{
+    echo "loggedout";
+    unset($_SESSION[loggedout]);
+    session_destroy();
+}
+?>
 </body>
 </html>

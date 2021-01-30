@@ -1,3 +1,14 @@
+<?php
+session_start();
+if(!isset($_SESSION[logged]))
+{
+    header("Location: Admin.php");
+}
+
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,23 +27,18 @@
                 <td><a href="EmployeeInfo.php">Employee Information</a></td>
             </tr>
             <tr>
-                <td><a href="">Compute Salary</a></td>
+                <td><a href="ComputeSalary.php">Compute Salary</a></td>
             </tr>
             <tr>
                 <td><a href="Add.php">Register Employee</a></td>
             </tr>
-            <tr>
-                <td><a href="">Settings</a></td>
-            </tr>
+            
         </table>
     </div>
     <div id="dashboard">
         <table id="dashboardtable">
             <tr>
-                <td>
-                    <input type="text" name="searchbar" id="searchbar"  placeholder="search...">
                 
-                </td>
                 <td id="adminleft" class="dropdownbtn">
                     <div class="dropdown">
                        <p class="dropbtn">Admin</p>
@@ -52,3 +58,4 @@
 
 </body>
 </html>
+
