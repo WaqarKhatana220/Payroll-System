@@ -28,12 +28,9 @@ session_start();
                 <td><a href="EmployeeInfo.php">Employee Information</a></td>
             </tr>
             <tr>
-                <td><a href="">Compute Salary</a></td>
+                <td><a href="Add.php">Register Employee</a></td>
             </tr>
-           
-            <tr>
-                <td><a href="">Settings</a></td>
-            </tr>
+        
         </table>
     </div>
 </div>

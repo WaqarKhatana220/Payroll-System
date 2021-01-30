@@ -25,14 +25,12 @@ include "Connection.php";
                     <td><a href="Apanel.php">Dashboard</a></td>
                 </tr>
                 <tr>
-                    <td><a href="">Compute Salary</a></td>
+                    <td><a href="ComputeSalary.php">Compute Salary</a></td>
                 </tr>
                 <tr>
                     <td><a href="Add.php">Register Employee</a></td>
                 </tr>
-                <tr>
-                    <td><a href="">Settings</a></td>
-                </tr>
+               
             </table>
         </div>
 

@@ -28,12 +28,9 @@ session_start();
                 <td><a href="EmployeeInfo.php">Employee Information</a></td>
             </tr>
             <tr>
-                <td><a href="">Compute Salary</a></td>
+                <td><a href="ComputeSalary.php">Compute Salary</a></td>
             </tr>
            
-            <tr>
-                <td><a href="">Settings</a></td>
-            </tr>
         </table>
     </div>
 </div>
@@ -149,13 +146,7 @@ session_start();
         </table>
     </form>
 
-    <?php
-    if (isset($_SESSION["added"]))
-    {
-        echo "<script> alert('Record Added Successfully')  </script>";
-        unset($_SESSION["added"]);
-    }
-    ?>
+    
 
     
 </body>
