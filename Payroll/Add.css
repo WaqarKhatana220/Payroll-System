@@ -1,0 +1,274 @@
+*{
+    box-sizing: border-box;
+}
+body, html{
+    margin: 0;
+    background-color: rgb(202, 202, 202);
+}
+
+
+.errormsg{
+    color: white;
+}
+tr, td{
+    padding: 5px 5px
+}
+
+
+html, body{
+    
+    background: linear-gradient(-45deg, #52caee, #2f7683, #23a6d5, #23d5ab); 
+           background-size: 400% 400%;
+        animation: gradient 8s ease infinite;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+   
+
+
+    #headers{
+        display: table;
+        margin: auto;
+        margin-top: 15px;
+    }
+
+    #header1{
+    border-bottom: 2px solid white;
+    color: white;
+    font-weight: bolder;
+    }
+table{
+    margin: auto;
+}
+
+input[type=submit]
+{
+    width: 100%;
+}
+
+#menu
+{
+   
+    display: table;
+    float: left;
+    width: 15%;
+    height: 100vh;
+    color: white;
+    text-decoration: none;
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+    filter: blur(0px);
+
+}
+
+
+
+#menu a{
+    text-decoration: none;
+    color: white;
+}
+
+#menu a:hover{
+    text-decoration: underline;
+}
+
+#dashboard{
+    float: left;
+    width: 85%;
+   
+    padding: 13px 10px;
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+    filter: blur(0px);
+}
+
+
+#dashboardtable{
+    float: right;
+    padding: 5px 10px;
+    margin-right: 15px;
+    
+}
+#adminleft{
+    color: white;
+}
+
+
+@media only screen and (min-width: 491px) {
+    #menu{
+        width: 15%;
+    }
+    #dashboard
+    {
+        width: 82%;
+    }
+}
+
+
+
+@media only screen and (min-width: 565px) {
+    #menu{
+        width: 15%;
+    }
+    #dashboard
+    {
+        width: 88%;
+    }
+}
+
+
+@media only screen and (min-width: 500px) {
+    #menu{
+        width: 15%;
+    }
+    #dashboard
+    {
+        width: 82.85%;
+    }
+}
+
+
+@media only screen and (min-width: 511px) {
+    #menu{
+        width: 15%;
+    }
+    #dashboard
+    {
+        width: 83.2%;
+    }
+}
+
+@media only screen and (min-width: 534px) {
+    #menu{
+        width: 15%;
+    }
+    #dashboard
+    {
+        width: 84%;
+    }
+}
+
+
+@media only screen and (min-width: 558px) {
+    #menu{
+        width: 15%;
+    }
+    #dashboard
+    {
+        width: 84.5%;
+    }
+}
+
+  
+
+@media only screen and (min-width: 600px) {
+    #menu{
+        width: 15%;
+    }
+    #dashboard
+    {
+        width: 85%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #menu{
+        width: 15%;
+    }
+    #dashboard
+    {
+        width: 85%;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    #menu{
+        width: 15%;
+    }
+    #dashboard
+    {
+        width: 85%;
+    }
+}
+
+@media print{
+    #buttons{
+        visibility: hidden;
+    }
+
+}
+
+.dropbtn {
+    color: rgb(255, 255, 255);
+    border: none;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 65px;
+    box-shadow: -5px 8px 16px 0px rgba(255, 255, 255, .5);
+    z-index: 1;
+  }
+  .dropdown-content a {
+    color: white;
+    padding: 5px 5px 5px 8px;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .dropdown-content a:hover {background-color: rgba(233, 0, 0, 0.685);}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+#paycheck
+{
+    
+    background: linear-gradient(-45deg, #52caee, #2f7683, #23a6d5, #23d5ab); 
+    -webkit-print-color-adjust: exact;
+    color: white;
+display: table;
+margin: auto;
+width: 50%;
+justify-content: space-between;
+font-weight: bold;
+font-size: 20px;
+margin-top: 50px;
+border: 1px solid lightgrey;
+color: black;
+
+}
+
+#close{
+    width: 100%;
+    padding: 10px 10px;
+}
+
+#buttons{
+    display: inline-flex;
+    float: right;
+}
+
+#head{
+display: flex;
+justify-content: center;
+text-decoration: underline;
+}
+#names{
+    margin-bottom: 20px;
+}
