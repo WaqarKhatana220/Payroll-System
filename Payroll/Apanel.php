@@ -59,3 +59,7 @@ if(!isset($_SESSION[logged]))
 </body>
 </html>
 
+<?php
+
+?>
+
